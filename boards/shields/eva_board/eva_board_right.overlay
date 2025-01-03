@@ -1,0 +1,16 @@
+#include "eva_board.dtsi"
+
+&default_transform { // Offset of 3 because the left side has 3 columns
+    col-offset = <6>;
+};
+
+&kscan0 {
+	col-gpios
+		= <&promicro 14 GPIO_ACTIVE_HIGH>
+		, <&promicro 15 GPIO_ACTIVE_HIGH>
+		, <&promicro 18 GPIO_ACTIVE_HIGH>
+		, <&promicro 19 GPIO_ACTIVE_HIGH>
+		, <&promicro 20 GPIO_ACTIVE_HIGH>
+		, <&promicro 21 GPIO_ACTIVE_HIGH>
+		;
+};

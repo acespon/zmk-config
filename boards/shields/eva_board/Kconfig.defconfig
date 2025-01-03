@@ -1,0 +1,16 @@
+if SHIELD_EVA_BOARD_LEFT
+
+config EVA_BOARD
+	default "Evangelion Keyboard"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_EVA_BOARD_LEFT || SHIELD_EVA_BOARD_RIGHT
+
+config ZMK_SPLIT
+	default y
+
+endif

@@ -1,0 +1,18 @@
+file_format: "1"
+id: eva_board
+name: Evangelion Board
+
+type: shield
+
+url: https://github.com/acespon/eva-shield-module
+
+requires:
+  - nice_nano_v2
+
+features:
+  - studio
+  - keys
+
+siblings:
+  - eva_board_left
+  - eva_board_right

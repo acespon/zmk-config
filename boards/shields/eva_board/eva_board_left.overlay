@@ -1,0 +1,12 @@
+#include "eva_board.dtsi"
+
+&kscan0 {
+	col-gpios
+		= <&promicro 21 GPIO_ACTIVE_HIGH>
+		, <&promicro 20 GPIO_ACTIVE_HIGH>
+		, <&promicro 19 GPIO_ACTIVE_HIGH>
+		, <&promicro 18 GPIO_ACTIVE_HIGH>
+		, <&promicro 15 GPIO_ACTIVE_HIGH>
+		, <&promicro 14 GPIO_ACTIVE_HIGH>
+		;
+};
