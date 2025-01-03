@@ -11,8 +11,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml    
-    - name: acespon/eva-shield-module
-      remote: acespon/eva-shield-module
+    - name: eva-shield-module
+      url: https://github.com/acespon/eva-shield-module
       revision: main
   self:
     path: config
