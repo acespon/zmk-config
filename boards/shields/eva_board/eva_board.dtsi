@@ -1,4 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "eva_board-layouts.dtsi"
+
 
 / {
     chosen {
