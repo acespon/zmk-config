@@ -1,7 +1,7 @@
 if SHIELD_EVA_BOARD_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Evangelion Keyboard"
+	default "Eva Keyboard"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
