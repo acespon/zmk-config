@@ -21,7 +21,5 @@
 include:
   - board: nice_nano_v2
     shield: eva_board_left
-    artifact-name: eva_left_with_studio
   - board: nice_nano_v2
     shield: eva_board_right
-    artifact-name: eva_right_with_studio
