@@ -11,7 +11,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml    
-    - name: module_eva_base
+    - name: eva-shield-module
       remote: eva-shield-module
       revision: main
   self:
