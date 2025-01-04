@@ -1,5 +1,4 @@
 #include "eva_board.dtsi"
-#include "eva_board-layouts.dtsi"
 
 &kscan0 {
 	col-gpios
