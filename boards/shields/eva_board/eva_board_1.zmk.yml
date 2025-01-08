@@ -1,18 +1,12 @@
 file_format: "1"
 id: eva_board
 name: Evangelion Board
-
 type: shield
-
-url: https://github.com/acespon/eva-shield-module
-
+url: https://github.com/acespon/zmk-config
 requires:
-  - nice_nano_v2
-
+  - pro_micro
 features:
-  - studio
   - keys
-
 siblings:
   - eva_board_left
   - eva_board_right
