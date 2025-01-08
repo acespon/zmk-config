@@ -1,4 +1,4 @@
-if SHIELD_EVA_BOARD_LEFT
+if SHIELD_EVA_BOARD_RIGHT
 
 	config ZMK_KEYBOARD_NAME
 		default "Eva Keyboard"
