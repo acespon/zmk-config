@@ -3,8 +3,7 @@ id: eva_board
 name: Evangelion Board
 type: shield
 url: https://github.com/acespon/zmk-config
-requires:
-  - pro_micro
+requires: [pro_micro]
 features:
   - keys
 siblings:
