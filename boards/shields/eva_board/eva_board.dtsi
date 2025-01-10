@@ -1,13 +1,12 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-
 / {
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
     };
 
-    default_transform: keymap_transform0 {
+    default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <12>;
         rows = <4>;
@@ -19,12 +18,13 @@
         //  LKey 7 |LKey 8 |LKey 9      RKey 7 |RKey 8 |RKey 9
             RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)	RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10) RC(2,11)
 	// thums
-            RC(3,4) RC(3,5)		RC(3,10) RC(3,11)
+            RC(3,4) RC(3,5)		RC(3,6) RC(3,7)
         >;
     };
 
 	kscan0: kscan0 {
 		compatible = "zmk,kscan-gpio-matrix";
+		wakeup-source;
 		diode-direction = "col2row";
 
 		row-gpios
