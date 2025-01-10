@@ -1,12 +1,13 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include  <eva_board-layouts.dtsi>
+
+&physical_layout0 {
+    transform = <&matrix_transform0>;
+};
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-    };
-
-    &physical_layout0 {
-        transform = <&matrix_transform0>;
     };
 
     default_transform: keymap_transform_0 {
