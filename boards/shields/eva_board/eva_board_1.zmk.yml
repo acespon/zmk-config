@@ -6,6 +6,7 @@ url: https://github.com/acespon/zmk-config
 requires: [pro_micro]
 features:
   - keys
+  - studio
 siblings:
   - eva_board_left
   - eva_board_right
