@@ -1,0 +1,16 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# User-specific files
+*.swp
+*~
+.idea_modules/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
